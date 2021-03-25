@@ -40,7 +40,7 @@ class YourSpider(scrapy.Spider):
 
     def start_requests(self):
 
-        for c in countries[:20]:
+        for c in country_list:
 
             yield scrapy.Request(url = "http://www.nationalanthems.info/" + c + ".htm", callback=self.parse)
 
