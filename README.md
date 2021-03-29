@@ -1,2 +1,2 @@
 # National_Anthem_Scraper
-Python code for scraping nation anthems to be used later for NLP
+Python code for scraping nationnal anthems of countires around the world to be used in for NLP analysis.
